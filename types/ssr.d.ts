@@ -1,5 +1,6 @@
 import type { Router } from 'vue-router'
 import type { App } from 'vue'
+import type { App as AppH3 } from "h3";
 import type { ViteDevServer } from 'vite'
 import type { Express } from 'express'
 
@@ -17,7 +18,7 @@ export interface CreateAppReturn {
 }
 
 export interface ServerReturn {
-  app: Express;
+  app: AppH3;
   vite: ViteDevServer;
 }
 

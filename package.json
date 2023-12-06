@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev": "ts-node server.ts",
+    "dev": "bun server.ts",
     "build": "npm run build:client && npm run build:server",
     "build:client": "NODE_ENV=production vite build --ssrManifest --mode prod --outDir dist/client",
     "build:server": "NODE_ENV=production vite build --ssr src/entry-server.ts --mode prod --outDir dist/server",
@@ -12,7 +12,9 @@
   "dependencies": {
     "compression": "^1.7.4",
     "cookie-parser": "^1.4.6",
+    "h3": "^1.9.0",
     "jsdom": "^23.0.1",
+    "listhen": "^1.5.5",
     "serve-static": "^1.15.0",
     "vue": "^3.3.10",
     "vue-router": "^4.2.5"
