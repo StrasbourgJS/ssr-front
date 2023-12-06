@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.app.json",
+  "include": [
+    "src/**/__tests__/**/*.spec.ts",
+    "src/**/*.ts",
+    "tests/**/*.fixtures.ts",
+    "tests/**/*.mocks.ts"
+  ],
+  "exclude": [],
+  "compilerOptions": {
+    "types": [
+      "node",
+      "jsdom",
+      "vite/client"
+    ]
+  }
+}

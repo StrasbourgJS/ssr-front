@@ -1,0 +1,23 @@
+{
+  "files": [],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    },
+    "ignore": [
+      "node_modules",
+      "dist"
+    ]
+  },
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.vite-config.json"
+    },
+    {
+      "path": "./tsconfig.vitest.json"
+    }
+  ]
+}
