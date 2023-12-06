@@ -1,5 +1,5 @@
 import type { Request, Response } from 'express'
-import * as express from 'express'
+import express from 'express';
 import { resolve } from 'node:path'
 import { readFileSync } from 'node:fs'
 import type { ServerReturn } from './types/ssr'
