@@ -5,4 +5,3 @@
   <RouterLink to="/">Home</RouterLink>
 </template>
 
-<style scoped></style>
