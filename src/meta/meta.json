@@ -1,0 +1,562 @@
+{
+  "/": {
+    "meta": {
+      "author": "Jonathan Marco",
+      "description": "Jojotique Adventure, pour apprendre en s'amusant.",
+      "keywords": "high-tech, numérique, portfolio, jojotique, html, css, javascript, php, vuejs, symfony",
+      "og": {
+        "image": {
+          "alt": "Dessin d'une tique avec un cerveau à la place du corps et une clé dans la main.",
+          "height": 607,
+          "url": "/tique.png",
+          "width": 806
+        },
+        "type": "website",
+        "url": "/"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "creator": "@GiildoJm",
+        "image": "/tique.png",
+        "site": "@GiildoJm",
+        "title": "Jojotique Adventure"
+      }
+    },
+    "title": "Jojotique Adventure"
+  },
+  "/courses": {
+    "meta": {
+      "author": "Jonathan Marco",
+      "description": "Tout pour débuter ou progresser en programmation web.",
+      "keywords": "numérique, jojotique, html, css, javascript, php, vuejs, symfony",
+      "og": {
+        "image": {
+          "alt": "Dessin d'une tique avec un cerveau à la place du corps et une clé dans la main.",
+          "height": 607,
+          "url": "/tique.png",
+          "width": 806
+        },
+        "type": "article:section",
+        "url": "/courses"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "creator": "@GiildoJm",
+        "image": "/tique.png",
+        "site": "@GiildoJm",
+        "title": "Liste des cours"
+      }
+    },
+    "title": "Liste des cours"
+  },
+  "/courses/modele-client-serveur": {
+    "meta": {
+      "author": "Jonathan Marco",
+      "description": "Le web est basé sur cette architecture binaire 'Client-Serveur'. Avant de commencer à coder, il est important de comprendre ces mécanismes pour mieux appréhender ce qu'on fait.",
+      "keywords": "numérique, jojotique, nginx, apache, serveur, client, php, python, ruby, SQL, main, DNS, POP, SMTP, FTP, IRC, NNTP, Response, Request",
+      "og": {
+        "image": {
+          "alt": "Illustration d'une armoire de serveurs.",
+          "height": 500,
+          "url": "/img/meta/datacenter.jpg",
+          "width": 500
+        },
+        "type": "article:section",
+        "url": "/courses/modele-client-serveur"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "creator": "@GiildoJm",
+        "image": "/img/meta/datacenter.jpg",
+        "site": "@GiildoJm",
+        "title": "Le modèle client-serveur"
+      }
+    },
+    "title": "Le modèle client-serveur"
+  },
+  "/courses/modele-client-serveur/server": {
+    "meta": {
+      "author": "Jonathan Marco",
+      "description": "Tout comprendre sur ce que représente le serveur dans le modèle client-serveur.",
+      "keywords": "numérique, jojotique, nginx, apache, serveur, client, php, python, ruby, Response, Request",
+      "og": {
+        "image": {
+          "alt": "Illustration d'une armoire de serveurs.",
+          "height": 500,
+          "url": "/img/meta/datacenter.jpg",
+          "width": 500
+        },
+        "type": "article",
+        "url": "/courses/modele-client-serveur/server"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "creator": "@GiildoJm",
+        "image": "/img/meta/datacenter.jpg",
+        "site": "@GiildoJm",
+        "title": "Le serveur"
+      }
+    },
+    "title": "Le serveur"
+  },
+  "/courses/modele-client-serveur/client": {
+    "meta": {
+      "author": "Jonathan Marco",
+      "description": "Tout comprendre sur ce que représente le client dans le modèle client-serveur.",
+      "keywords": "numérique, jojotique, browser, chrome, firefox, safari, DNS, smartphone, desktop, tablette, Response, Request",
+      "og": {
+        "image": {
+          "alt": "Illustration d'une armoire de serveurs.",
+          "height": 500,
+          "url": "/img/meta/datacenter.jpg",
+          "width": 500
+        },
+        "type": "article",
+        "url": "/courses/modele-client-serveur/client"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "creator": "@GiildoJm",
+        "image": "/img/meta/datacenter.jpg",
+        "site": "@GiildoJm",
+        "title": "Le client"
+      }
+    },
+    "title": "Le client"
+  },
+  "/courses/modele-client-serveur/internet-vs-web": {
+    "meta": {
+      "author": "Jonathan Marco",
+      "description": "En français, on utilise souvent les mots 'internet' et 'web' de manière interchangeable, mais est-ce la même chose ? Je vous explique ici la différence.",
+      "keywords": "numérique, jojotique, Web, Internet, POP, SMTP, FTP, IRC, NNTP, cloud, Response, Request",
+      "og": {
+        "image": {
+          "alt": "Illustration d'une armoire de serveurs.",
+          "height": 500,
+          "url": "/img/meta/datacenter.jpg",
+          "width": 500
+        },
+        "type": "article",
+        "url": "/courses/modele-client-serveur/internet-vs-web"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "creator": "@GiildoJm",
+        "image": "/img/meta/datacenter.jpg",
+        "site": "@GiildoJm",
+        "title": "Internet vs le Web"
+      }
+    },
+    "title": "Internet vs le Web"
+  },
+  "/courses/modele-client-serveur/request": {
+    "meta": {
+      "author": "Jonathan Marco",
+      "description": "La requête est ce que construit le navigateur pour demander ou passer une information au serveur. Venez découvrir tous les secrets de cet élément central du web.",
+      "keywords": "jojotique, Web, Request",
+      "og": {
+        "image": {
+          "alt": "Illustration d'une armoire de serveurs.",
+          "height": 500,
+          "url": "/img/meta/datacenter.jpg",
+          "width": 500
+        },
+        "type": "article",
+        "url": "/courses/modele-client-serveur/request"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "creator": "@GiildoJm",
+        "image": "/img/meta/datacenter.jpg",
+        "site": "@GiildoJm",
+        "title": "La requête"
+      }
+    },
+    "title": "La requête"
+  },
+  "/courses/modele-client-serveur/response": {
+    "meta": {
+      "author": "Jonathan Marco",
+      "description": "La réponse est ce que construit et envoi le serveur pour répondre à la requête. Venez découvrir tous les secrets de cet élément central du web.",
+      "keywords": "jojotique, Web, Response, HTTPCats, HTTP Status Codes",
+      "og": {
+        "image": {
+          "alt": "Illustration d'une armoire de serveurs.",
+          "height": 500,
+          "url": "/img/meta/datacenter.jpg",
+          "width": 500
+        },
+        "type": "article",
+        "url": "/courses/modele-client-serveur/response"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "creator": "@GiildoJm",
+        "image": "/img/meta/datacenter.jpg",
+        "site": "@GiildoJm",
+        "title": "La réponse"
+      }
+    },
+    "title": "La réponse"
+  },
+  "/courses/mon-premier-site-web": {
+    "meta": {
+      "author": "Jonathan Marco",
+      "description": "Cours pour les débutant(e)s pour apprendre le développement web. On y découvrira le HTML, le CSS, le Javascript et le PHP et plein d'autres petites astuces de pro pour coder mieux et plus vite !",
+      "keywords": "numérique, jojotique, HTML, CSS, figma, javascript, PHP, maquette",
+      "og": {
+        "image": {
+          "alt": "Logo du HTML = bouclier orange avec un 5 au centre.",
+          "height": 408,
+          "url": "/img/meta/html.png",
+          "width": 370
+        },
+        "type": "article:section",
+        "url": "/courses/mon-premier-site-web"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "creator": "@GiildoJm",
+        "image": "https://api.jojotique.fr/img/courses/html_logo.svg",
+        "site": "@GiildoJm",
+        "title": "Mon premier site web"
+      }
+    },
+    "title": "Mon premier site web"
+  },
+  "/courses/mon-premier-site-web/html-css-introduction": {
+    "meta": {
+      "author": "Jonathan Marco",
+      "description": "Quel langage ? Quels outils ? Comment débuter un site web ? Si vous vous posez ces questions venez voir sur ce cour pour bien débuter.",
+      "keywords": "numérique, jojotique, HTML, CSS, JS, PHP, IDE, Visual Studio Code, Jetbrains, PHPStorm, WebStorm, PyCharm, Browser, Chrome, Firefox, Safari, Opera, Edge, Internet Explorer",
+      "og": {
+        "image": {
+          "url": "/img/meta/plan-de-travail-s1e1.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        "type": "article",
+        "url": "/courses/mon-premier-site-web/html-css-introduction"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "creator": "@GiildoJm",
+        "image": "/img/meta/plan-de-travail-s1e1.jpg",
+        "site": "@GiildoJm",
+        "title": "Introduction - Mon premier site web"
+      }
+    },
+    "title": "Introduction - Mon premier site web"
+  },
+  "/courses/mon-premier-site-web/ma-premiere-page-html": {
+    "meta": {
+      "author": "Jonathan Marco",
+      "description": "Anatomie d'une URL et qu'est ce qu'une page HTML minimale ? C'est parti on entre dans le vif du sujet !",
+      "keywords": "numérique, jojotique, HTML, URL, domain, subdomain, query string, tag, attribute, id, class",
+      "og": {
+        "image": {
+          "url": "/img/meta/url.png",
+          "width": 1280,
+          "height": 720
+        },
+        "type": "article",
+        "url": "/courses/mon-premier-site-web/ma-premiere-page-html"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "creator": "@GiildoJm",
+        "image": "/img/meta/url.png",
+        "site": "@GiildoJm",
+        "title": "Ma première page HTML"
+      }
+    },
+    "title": "Ma première page HTML"
+  },
+  "/courses/mon-premier-site-web/maquette-decoupage": {
+    "meta": {
+      "author": "Jonathan Marco",
+      "description": "Dans ce cours on va se baser sur une maquette Figma pour apprendre à bien organiser son code HTML. On apprendra aussi les bonnes pratiques en HTML.",
+      "keywords": "numérique, jojotique, Figma, maquette, HTML good practices, HTML",
+      "og": {
+        "image": {
+          "url": "/img/meta/plan-de-travail-s1e3.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        "type": "article",
+        "url": "/courses/mon-premier-site-web/maquette-decoupage"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "creator": "@GiildoJm",
+        "image": "/img/meta/plan-de-travail-s1e3.jpg",
+        "site": "@GiildoJm",
+        "title": "Mon site en maquette"
+      }
+    },
+    "title": "Mon site en maquette"
+  },
+  "/courses/mon-premier-site-web/css-initiation": {
+    "meta": {
+      "author": "Jonathan Marco",
+      "description": "Tout comprendre en CSS. Comment bien débuter, et découvrir tous les sélecteurs qui nous permettront de faire le plus joli site du monde.",
+      "keywords": "numérique, jojotique, CSS, CSS selector, id, class",
+      "og": {
+        "image": {
+          "url": "/img/meta/plan-de-travail-s1e4.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        "type": "article",
+        "url": "/courses/mon-premier-site-web/css-initiation"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "creator": "@GiildoJm",
+        "image": "/img/meta/plan-de-travail-s1e4.jpg",
+        "site": "@GiildoJm",
+        "title": "Mes débuts en CSS"
+      }
+    },
+    "title": "Mes débuts en CSS"
+  },
+  "/courses/mon-premier-site-web/header-style": {
+    "meta": {
+      "author": "Jonathan Marco",
+      "description": "Dans ce cours on se base sur la maquette pour bien comprendre comment associer notre HTML et notre CSS pour finir notre header. On verra aussi comment gérer nos couleurs et nos polices de caractère.",
+      "keywords": "numérique, jojotique, CSS, CSS selector, id, class, header, HTML, color, font, margin, padding, position",
+      "og": {
+        "image": {
+          "url": "/img/meta/plan-de-travail-s1e5.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        "type": "article",
+        "url": "/courses/mon-premier-site-web/header-style"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "creator": "@GiildoJm",
+        "image": "/img/meta/plan-de-travail-s1e5.jpg",
+        "site": "@GiildoJm",
+        "title": "Un header stylisé"
+      }
+    },
+    "title": "Un header stylisé"
+  },
+  "/courses/mon-premier-site-web/flex": {
+    "meta": {
+      "author": "Jonathan Marco",
+      "description": "Venez découvrir Flex, une technologie indispensable pour faire simplement des design modernes en CSS et sans librairie.",
+      "keywords": "numérique, jojotique, CSS, flex, justify-content, align-items, align-self, flex-direction, flex-wrap, flex-flow, order, flex-grow, flex-shrink, flex-basis, align-content",
+      "og": {
+        "image": {
+          "url": "/img/meta/plan-de-travail-s1e6.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        "type": "article",
+        "url": "/courses/mon-premier-site-web/flex"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "creator": "@GiildoJm",
+        "image": "/img/meta/plan-de-travail-s1e6.jpg",
+        "site": "@GiildoJm",
+        "title": "De la flex-ibilité"
+      }
+    },
+    "title": "De la flex-ibilité"
+  },
+  "/courses/mon-premier-site-web/accueil-end-design": {
+    "meta": {
+      "author": "Jonathan Marco",
+      "description": "Ça y est on termine notre page d'accueil ! On découvre alors les border-radius, les librairies d'icônes, le material design et les variables en CSS.",
+      "keywords": "numérique, jojotique, material design, border-radius, icon, variable, CSS, flat design, skeuomorphism, variable CSS",
+      "og": {
+        "image": {
+          "url": "/img/meta/plan-de-travail-s1e7.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        "type": "article",
+        "url": "/courses/mon-premier-site-web/accueil-end-design"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "creator": "@GiildoJm",
+        "image": "/img/meta/plan-de-travail-s1e7.jpg",
+        "site": "@GiildoJm",
+        "title": "Fin du design de la page d'accueil"
+      }
+    },
+    "title": "Fin du design de la page d'accueil"
+  },
+  "/courses/mon-premier-site-web/grid": {
+    "meta": {
+      "author": "Jonathan Marco",
+      "description": "Après Flex, voilà Grid la seconde technologie que tout développeur web se doit de connaître. Venez apprendre à organisez vos pages simplement en CSS pur !",
+      "keywords": "numérique, jojotique, CSS, grid, grid-template, grid-area",
+      "og": {
+        "image": {
+          "url": "/img/meta/plan-de-travail-s1e8.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        "type": "article",
+        "url": "/courses/mon-premier-site-web/grid"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "creator": "@GiildoJm",
+        "image": "/img/meta/plan-de-travail-s1e8.jpg",
+        "site": "@GiildoJm",
+        "title": "Grid, or not grid"
+      }
+    },
+    "title": "Grid, or not grid"
+  },
+  "/courses/mon-premier-site-web/responsive-design": {
+    "meta": {
+      "author": "Jonathan Marco",
+      "description": "Aujourd'hui plus de la moitié des utilisateurs utilisent des smartphones pour accéder au web. C'est pourquoi tout site se doit de s'adapter aux différents format de client.",
+      "keywords": "numérique, jojotique, CSS, responsive design, mobile first, media query, viewport, @media",
+      "og": {
+        "image": {
+          "url": "/img/meta/plan-de-travail-s1e9.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        "type": "article",
+        "url": "/courses/mon-premier-site-web/responsive-design"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "creator": "@GiildoJm",
+        "image": "/img/meta/plan-de-travail-s1e9.jpg",
+        "site": "@GiildoJm",
+        "title": "Le responsive design"
+      }
+    },
+    "title": "Le responsive design"
+  },
+  "/courses/mon-premier-site-web/php-et-les-bases-de-donnees": {
+    "meta": {
+      "author": "Jonathan Marco",
+      "description": "Une des premières raisons d'être des langages serveur est de faire le lien entre le serveur et les base de données, ce chapitre est une introduction à ce monde.",
+      "keywords": "numérique, jojotique, PHP, database, DB, base de données, BdD, PDO, table, mariaDB",
+      "og": {
+        "image": {
+          "url": "/img/meta/plan-de-travail-s1e9.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        "type": "article",
+        "url": "/courses/mon-premier-site-web/php-et-les-bases-de-donnees"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "creator": "@GiildoJm",
+        "image": "/img/meta/plan-de-travail-s1e9.jpg",
+        "site": "@GiildoJm",
+        "title": "PHP et les bases de données"
+      }
+    },
+    "title": "PHP et les bases de données"
+  },
+  "/courses/mon-premier-site-web/mon-premier-formulaire": {
+    "meta": {
+      "author": "Jonathan Marco",
+      "description": "Les formulaires sont les éléments les plus compliqués à manier. Accessibilité, sécurité, validation, autant de choses à prendre en compte.",
+      "keywords": "numérique, jojotique, HTML, form, GET, POST, label, input, textarea, champ, accessibilité, sécurité",
+      "og": {
+        "image": {
+          "url": "/img/meta/plan-de-travail-s1e9.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        "type": "article",
+        "url": "/courses/mon-premier-site-web/mon-premier-formulaire"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "creator": "@GiildoJm",
+        "image": "/img/meta/plan-de-travail-s1e9.jpg",
+        "site": "@GiildoJm",
+        "title": "Mon premier formulaire"
+      }
+    },
+    "title": "Mon premier formulaire"
+  },
+  "/courses/boite-a-outils/git-versioning": {
+    "meta": {
+      "author": "Jonathan Marco",
+      "description": "Tout développeur qui veut devenir professionnel se doit d'apprendre un outil de versioning. Ici nous verrons Git, je vous propose un workflow professionnel pour l'utiliser comme un pro !",
+      "keywords": "numérique, jojotique, Git, gitlab, github, versioning, push, commit, branch, merge, pull request, workflow, gitflow",
+      "og": {
+        "image": {
+          "url": "/img/meta/plan-de-travail-s1e10.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        "type": "article",
+        "url": "/courses/mon-premier-site-web/git-versioning"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "creator": "@GiildoJm",
+        "site": "@GiildoJm",
+        "title": "Git et le versioning"
+      }
+    },
+    "title": "Git et le versioning"
+  },
+  "/courses/boite-a-outils/les-bases-de-donnees": {
+    "meta": {
+      "author": "Jonathan Marco",
+      "description": "Introduction aux bases de données, qu'est-ce que le SQL et le noSQL ? Les relations entre les tables ? Vous serez armé pour commencer votre propre base de données !",
+      "keywords": "numérique, jojotique, database, DB, base de données, BdD, SQL, noSQL, table, relation, relationnel, relationnelle, mariaDB, one to one, one to many, many to many",
+      "og": {
+        "image": {
+          "url": "/img/meta/plan-de-travail-s1e10.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        "type": "article",
+        "url": "/courses/boite-a-outils/les-bases-de-donnees"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "creator": "@GiildoJm",
+        "site": "@GiildoJm",
+        "title": "Les bases de données"
+      }
+    },
+    "title": "Les bases de données"
+  },
+  "/search": {
+    "meta": {
+      "author": "Jonathan Marco",
+      "description": "Jojotique Adventure, rechercher dans les cours et les parcours.",
+      "keywords": "high-tech, numérique, portfolio, jojotique, html, css, javascript, php, vuejs, symfony",
+      "og": {
+        "image": {
+          "alt": "Dessin d'une tique avec un cerveau à la place du corps et une clé dans la main.",
+          "height": 607,
+          "url": "/tique.png",
+          "width": 806
+        },
+        "type": "website",
+        "url": "/"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "creator": "@GiildoJm",
+        "image": "/tique.png",
+        "site": "@GiildoJm",
+        "title": "Jojotique Adventure"
+      }
+    },
+    "title": "Jojotique Adventure - Recherche"
+  }
+}

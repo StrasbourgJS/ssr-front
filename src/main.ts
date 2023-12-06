@@ -1,11 +1,17 @@
-import './assets/main.css'
+import { createSSRApp } from 'vue'
+import App from '@/App.vue'
+import { createRouter } from '@/plugins/router'
+import type { CreateAppReturn } from '#/ssr'
 
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
+/**
+ * SSR requires a fresh app instance per request, therefore we export a function that creates a fresh app instance.
+ *
+ * @returns {CreateAppReturn}
+ */
+export function createApp(): CreateAppReturn {
+  const app = createSSRApp(App)
 
-const app = createApp(App)
-
-app.use(router)
-
-app.mount('#app')
+  const router = createRouter()
+  app.use(router)
+  return { app, router }
+}
